@@ -1,0 +1,21 @@
+{
+  "name": "front-backend-test",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "async": "^2.0.0-rc.6",
+    "expect": "^1.20.1",
+    "jquery": "^3.6.0",
+    "underscore": "^1.8.3",
+    "wait-on": "^5.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  },
+  "scripts": {
+    "server": "nodemon tcp.js",
+    "client": "nodemon --delay 2.5 personalClient.js",
+    "dev": "concurrently -k -s first \"npm run server\" \"npm run client\""
+  },
+  "author": "jNembhard"
+}
