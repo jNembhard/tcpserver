@@ -6,20 +6,20 @@ I've created a personalClient.js and tcp.js file. The purpose of the files is to
 
 1. Download the latest version of node.js for your Operating System.
 2. Next, download the latest version of nodemon.
-  * This can be used to auto restart the server.
+    * This can be used to auto restart the server and client.
 3. Run npm install inside the TCP Server Canvas folder from the command line.
 4. Open two separate command line terminals and run the following script:
-  * Terminal 1:
+    * Terminal 1:
 
-    ```bash
-    npm run server
-    ```
+      ```bash
+      npm run server
+      ```
 
-  * Terminal 2:
+    * Terminal 2:
 
-    ```bash
-    npm run client
-    ```
+      ```bash
+      npm run client
+      ```
 
 ## How To Enter Commands
 
